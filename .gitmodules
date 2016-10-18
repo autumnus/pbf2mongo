@@ -3,7 +3,7 @@
 	url = https://github.com/qedus/osmpbf.git
 [submodule "src/github.com/cheggaaa/pb"]
 	path = src/github.com/cheggaaa/pb
-	url = https://github.com/cheggaaa/pb.git
+	url = https://github.com/cheggaaa/pb.gitgit status
 [submodule "src/labix.org/v2/mgo"]
 	path = src/labix.org/v2/mgo
 	url = https://github.com/amitu/mgo.git
