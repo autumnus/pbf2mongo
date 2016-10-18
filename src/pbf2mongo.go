@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/qedus/osmpbf"
-	"github.com/cheggaaa/pb"
-	"labix.org/v2/mgo"
+	"./github.com/qedus/osmpbf"
+	"./github.com/cheggaaa/pb"
+	"./labix.org/v2/mgo"
 
 	"flag"
 	"log"
@@ -30,7 +30,7 @@ type OsmNode struct {
 	    } `bson:"loc"`
 	Version   int32     `bson:"version"       xml:"version,attr"`
 	Ts        time.Time `bson:"timestamp"        xml:"timestamp,attr"`
-	Uid       int64     `bson:"uid"       xml:"uid,attr"`
+	Uid       int32     `bson:"uid"       xml:"uid,attr"`
 	User      string    `bson:"user"      xml:"user,attr"`
 	ChangeSet int64     `bson:"changeset" xml:"changeset,attr"`
 	Lat       float64   `bson:"-"         xml:"lat,attr"`
