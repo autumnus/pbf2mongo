@@ -1,9 +1,9 @@
 package main
 
 import (
-	"./github.com/qedus/osmpbf"
-	"./github.com/cheggaaa/pb"
-	"./labix.org/v2/mgo"
+	"github.com/qedus/osmpbf"
+	"github.com/cheggaaa/pb"
+	"labix.org/v2/mgo"
 
 	"flag"
 	"log"
